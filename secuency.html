@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Secuency</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="MyjavascriptLearn.js"></script>
+    </head>
+    <body>
+        <h1>Secuency</h1>
+        <img id="imgSecuency" src="secuency/0.png" alt="">
+        <br>
+        <br>
+        <input id="rangeSec" type="range" name="rango" step="50" min="0" max="200" list="tickmarks" onchange="changeSpeed()">
+        <datalist id="tickmarks">
+                <option value="0" label="0">
+                <option value="50">
+                <option value="100" label="100">
+                <option value="150">
+                <option value="200" label="200">
+        </datalist>
+        <p id="salida">100</p>
+        <br>
+        <button onclick="playSecuency(150)">Play</button>
+        <button onclick="stopSecuency()">Stop</button>
+        <a href="index.html"><button type="input">Home</button></a>
+    </body>
+</html>

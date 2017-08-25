@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Strings</title>
+</head>
+<body>
+    <h1>Strings</h1>
+    <p>JavaScript strings are used for storing and manipulating text.</p>
+    <h3>Scaping Characters</h3>
+        <img src="images/scapingCharacters.png" alt="Scaping Characters">
+
+        <h3>Properties and Methods</h3>
+        <table border=1 cellspacing=0>
+            <thead>
+                <th>
+                    Property / Method
+                </th>
+                <th>
+                    Definition
+                </th>
+                <th>
+                    Example
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        length    
+                    </td>
+                    <td>
+                        returns the length or a string.
+                    </td>
+                    <td>
+                       <b>var</b> sln = txt.length;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        indexOf()    
+                    </td>
+                    <td>
+                        returns the index of the first occurrence of a specified text in a string.
+                    </td>
+                    <td>
+                        <b>var</b> pos = str.indexOf("locate");
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        lastIndexOf()    
+                    </td>
+                    <td>
+                        returns the index of the last occurrence of a specified text in a string.
+                    </td>
+                    <td>
+                        <b>var</b> pos = str.lastIndexOf("locate");
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        search()  
+                    </td>
+                    <td>
+                        searches a string for a specified value and returns the position of the match.
+                    </td>
+                    <td>
+                        <b>var</b> pos = str.search("locate");
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        slice()
+                    </td>
+                    <td>
+                        extracts a part of a string and returns the extracted part in a new string. (Negative Indexes)
+                    </td>
+                    <td>
+                        <b>var</b> sl = str.slice(7, 13);
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        substr()
+                    </td>
+                    <td>
+                        The difference wint splice() method is that the second parameter specifies the length of the extracted part.
+                    </td>
+                    <td>
+                        <b>var</b> res = str.substr(7, 6)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        replace() 
+                    </td>
+                    <td>
+                        replaces a specified value with another value in a string.
+                    </td>
+                    <td>
+                        <b>var</b> n = str.replace("Microsoft", "W3Schools");
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        toUpperCase() 
+                    </td>
+                    <td>
+                        A string is converted to upper case
+                    </td>
+                    <td>
+                        <b>var</b> text2 = text1.toUpperCase();
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        concat() 
+                    </td>
+                    <td>
+                        joins two or more strings
+                    </td>
+                    <td>
+                        <b>var</b> text3 = text1.concat(" ", text2);
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        charAt() 
+                    </td>
+                    <td>
+                        returns the character at a specified index (position) in a string
+                    </td>
+                    <td>
+                        str.charAt(0);
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        charAt() 
+                    </td>
+                    <td>
+                        returns the unicode of the character at a specified index in a string.
+                    </td>
+                    <td>
+                        tr.charCodeAt(0);
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        split()
+                    </td>
+                    <td>
+                        Converts a string to an Array.
+                    </td>
+                    <td>
+                        <b>var</b> txt = "Hello"; <b>var</b> arr = txt.split(""); // Split in characters
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    
+                </tr>
+            </tfoot>
+        </table>
+        <a href="index.html"><button type="input">Home</button></a>
+</body>
+</html>
